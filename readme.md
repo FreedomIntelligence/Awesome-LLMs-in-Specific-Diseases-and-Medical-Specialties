@@ -1,0 +1,408 @@
+# Awesome-LLMs-in-Specific-Diseases-and- Medical-Specialties🧑‍⚕️
+
+This repository provides a curated collection of research on specialized Large Language Models (LLMs) for specific diseases and medical specialties, organized by ICD-10 chapters.
+
+## 📋Table of contents
+
+- [Neoplasms (II)](#neoplasms-ii)
+- [Endocrine, Nutritional and Metabolic Diseases (IV)](#endocrine-nutritional-and-metabolic-diseases-iv)
+- [Mental and Behavioural Disorders (V)](#mental-and-behavioural-disorders-v)
+- [Diseases of the Nervous System (VI)](#diseases-of-the-nervous-system-vi)
+- [Diseases of the Eye and Adnexa (VII)](#diseases-of-the-eye-and-adnexa-vii)
+- [Diseases of the Ear and Mastoid Process (VIII)](#diseases-of-the-ear-and-mastoid-process-viii)
+- [Diseases of the Circulatory System (IX)](#diseases-of-the-circulatory-system-ix)
+- [Diseases of the Respiratory System (X)](#diseases-of-the-respiratory-system-x)
+- [Diseases of the Digestive System (XI)](#diseases-of-the-digestive-system-xi)
+- [Diseases of the Skin and Subcutaneous Tissue (XII)](#diseases-of-the-skin-and-subcutaneous-tissue-xii)
+- [Diseases of the Musculoskeletal System and Connective Tissue (XIII)](#diseases-of-the-musculoskeletal-system-and-connective-tissue-xiii)
+- [Diseases of the Genitourinary System (XIV)](#diseases-of-the-genitourinary-system-xiv)
+- [Certain Conditions Originating in the Perinatal Period (XVI)](#certain-conditions-originating-in-the-perinatal-period-xvi)
+- [Congenital Malformations, Deformations, and Chromosomal Abnormalities (XVII)](#congenital-malformations-deformations-and-chromosomal-abnormalities-xvii)
+- [Factors Influencing Health Status and Contact with Health Services (XXI)](#factors-influencing-health-status-and-contact-with-health-services-xxi)
+- [Codes for Special Purposes (XXII)](#codes-for-special-purposes-xxii)
+
+------
+
+## 📽️Visualization
+
+- **Annotated human body diagram** illustrating LLMs in 34 specific diseases across 16 organ systems, including female-specific conditions. Organ systems are color-coded; ***disease names*** are in bold italics, followed by the corresponding *model names*.
+
+  ![](fig/llms_in_specific_disease.png)
+
+- Summary of all specialized LLMs for specific diseases and medical specialties, categorized by ICD-10 chapter list; disease names and specialty names are highlighted, the corresponding model names are listed.
+
+  ![](fig/table.jpg)
+
+------
+
+## Neoplasms (II)
+
+**Medical Specialities**
+
+| Speciality      |                            Paper                             | Submitted in                                      | Description                                                  |              Project/demo              |
+| --------------- | :----------------------------------------------------------: | ------------------------------------------------- | ------------------------------------------------------------ | :------------------------------------: |
+| Oncology        | [Radonc-gpt: A large language model for radiation oncology](https://arxiv.org/abs/2309.10160) | arXiv 2023/09                                     | Instruction-tuned LLM for radiotherapy plan generation and decision support. |                   -                    |
+|                 | [Oncogpt: A medical conversational model tailored with oncology domain expertise on a large language model meta-ai (llama)](https://arxiv.org/abs/2402.16810) | arXiv 2024/02                                     | Multi-stage fine-tuned LLM for oncology Q&A and treatment recommendations. |  https://github.com/OncoGPT1/OncoGPT1  |
+|                 | [SEETrials: Leveraging large language models for safety and efficacy extraction in oncology clinical trials](https://www.sciencedirect.com/science/article/pii/S2352914824001461#sec3) | Informatics in Medicine Unlocked 2024             | GPT-4 plus prompts for automated extraction of clinical trial outcomes in oncology. |                   -                    |
+|                 | [LLM-driven multimodal target volume contouring in radiation oncology](https://www.nature.com/articles/s41467-024-53387-y) | Nature Communications 2024                        | Multimodal LLM framework for 3D target volume segmentation in radiotherapy. |   https://github.com/tvseg/MM-LLM-RO   |
+|                 | [A vision--language foundation model for precision oncology](https://www.nature.com/articles/s41586-024-08378-w) | Nature 2025                                       | Unified vision-language model for multimodal cancer detection and biomarker prediction. | https://github.com/lilab-stanford/MUSK |
+| Cancer          | [Cancerllm: A large language model in cancer domain](https://arxiv.org/abs/2406.10459) | arXiv 2024/06                                     | Mistral-style LLM pre-trained and fine-tuned for cancer phenotype extraction and diagnosis. |                   -                    |
+| Breast Medicine | [Burextract-llama: An llm for clinical concept extraction in breast ultrasound reports](https://dl.acm.org/doi/abs/10.1145/3688868.3689200) | Multimedia Computing for Health and Medicine 2024 | Q-LoRA fine-tuned Llama3 model for structured information extraction from breast ultrasound. |                   -                    |
+
+**Specific Diseases**
+
+|         Diseases         |                            Paper                             |                Submitted in                |                         Description                          |                       Project/demo                        |
+| :----------------------: | :----------------------------------------------------------: | :----------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------------------: |
+|    Pancreatic Cancer     | [MiniGPT-Pancreas: Multimodal Large Language Model for Pancreas Cancer Classification and Detection](https://arxiv.org/abs/2412.15925) |               arXiv 2024/12                | Multimodal LLM integrating CT and prompts for pancreatic cancer classification and detection. |     https://github.com/elianastasio/MiniGPT-Pancreas      |
+|     Prostate Cancer      | [RadOnc-GPT (gpt-4o) versus human data extraction for prostate cancer clinical research](https://ascopubs.org/doi/abs/10.1200/JCO.2025.43.5_suppl.425) | American Society of Clinical Oncology 2025 | Instruction-tuned Llama2 automates radiotherapy regimens and clinical report generation. |                             -                             |
+| Hepatocellular Carcinoma | [ChatExosome: An Artificial Intelligence (AI) Agent Based on Deep Learning of Exosomes Spectroscopy for Hepatocellular Carcinoma (HCC) Diagnosis](https://pubs.acs.org/doi/10.1021/acs.analchem.4c06677) |         Analytical Chemistry 2025          | Fuses exosome Raman spectra transformer with RAG-LLM for HCC diagnosis and Q&A. |          https://github.com/yangzj21/ChatExosome          |
+|       Lung Cancer        | [EXACT-Net: EHR-guided lung tumor auto-segmentation for non-small cell lung cancer radiotherapy](https://arxiv.org/abs/2402.14099) |               arXiv 2024/02                | Combines LLM-based EHR extraction with 3D U-Net for CT-based lung tumor segmentation. |                             -                             |
+|     Thyroid Nodules      | [EndoGPT: A Proof-of-concept Large Language Model Based Assistant for the Management of Thyroid Nodules](https://www.medrxiv.org/content/10.1101/2024.05.29.24308002v1) |                medRxiv 2024                | GPT-4o with RAG and prompts for individualized thyroid nodule assessment and management. |             https://github.com/tsathe/endogpt             |
+|    Colorectal Cancer     | [Frontiers in intelligent colonoscopy](https://arxiv.org/abs/2410.17241) |               arXiv 2024/10                | Multimodal LLM for interactive colonoscopy scene classification and visual-language reasoning. |      https://github.com/ai4colonoscopy/IntelliScope       |
+|      Breast Cancer       | [Breast-Cancer_SAM_v1](https://huggingface.co/ayoubkirouane/Breast-Cancer_SAM_v1) |                     -                      | Segment Anything Model for high-quality tumor segmentation in breast imaging. | https://huggingface.co/ayoubkirouane/Breast-Cancer_SAM_v1 |
+|                          | [Breast-Crag: A Breast Cancer Large Language Model Leveraging Retrieval-Augmented Generation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5052341) |                SSRN 5052341                | LoRA-finetuned Qwen2.5 and RAG for breast cancer Q&A and exam tasks. |          https://github.com/Maxin-C/Breast-CRAG           |
+|     Cervical Cancer      | [Context-Aware Text-Assisted Multimodal Framework for Cervical Cytology Cell Diagnosis and Chatting](https://ieeexplore.ieee.org/abstract/document/10688120?casa_token=k-K6IQLYNn4AAAAA:r_Dgs37lZQa785x2vVgai4AEdW5IPfXvIv7ChyMKGEDcGgnefKWrXdkksynngUXqXCcSDUKHjBQ) |               IEEE ICME 2024               | Integrates multimodal image-text transformers and LLM for cervical cytology classification. |                             -                             |
+
+**Reference Awesome-repo**
+
+- [Oncology , Cancer](https://github.com/cbailes/awesome-ai-cancer)
+
+
+
+## Endocrine, Nutritional and Metabolic Diseases (IV)
+
+**Specific Diseases**
+
+| Diseases |                            Paper                             |       Submitted in        |                         Description                          |               Project/demo                |
+| :------: | :----------------------------------------------------------: | :-----------------------: | :----------------------------------------------------------: | :---------------------------------------: |
+| Diabetes | [Integrated image-based deep learning and language models for primary diabetes care](https://www.nature.com/articles/s41591-024-03139-8) |   Nature Medicine 2024    | Vision transformer + LLM for fundus image analysis, DR grading, and personalized diabetes care. |  https://github.com/DeepPros/DeepDR-LLM   |
+|          | [Diabetica: Adapting Large Language Model to Enhance Multiple Medical Tasks in Diabetes Care and Management](https://arxiv.org/abs/2409.13191) |       arXiv 2024/09       | Diabetes-specific LLM with LoRA/SFT for precise Q&A, patient consultation, and record summary. | https://github.com/waltonfuture/Diabetica |
+|          | [Nutrinalyzer: Leveraging Multimodal LLMs for Enhanced Food Recognition and Dietary Analysis in Type 2 Diabetes Management](https://digitalcommons.kennesaw.edu/undergradsymposiumksu/fall2024/fall2024/116/) | Preprint/Tech Report 2025 | Multimodal LLMs for food recognition and personalized, expert-validated diabetes nutrition advice. |                     -                     |
+
+
+
+## Mental and Behavioural Disorders (V)
+
+**Medical Specialities**
+
+| Speciality |                            Paper                             |      Submitted in       |                         Description                          |                 Project/demo                  |
+| :--------: | :----------------------------------------------------------: | :---------------------: | :----------------------------------------------------------: | :-------------------------------------------: |
+| Psychiatry | [Psy-llm: Scaling up global mental health psychological services with ai-based large language models](https://arxiv.org/abs/2307.11991) |      arXiv 2023/07      | Pre-trained and fine-tuned on psychological Q&A datasets, delivers expert-level answers and urgent screening. |       https://github.com/thu-coai/PsyQA       |
+|            | [Chatcounselor: A large language models for mental health support](https://arxiv.org/abs/2309.15461) |      arXiv 2023/09      | LLaMA-7B fine-tuned to provide professional counseling responses and mental health classification. | https://github.com/EmoCareAI/ChatPsychiatrist |
+|            | [Mindwatch: A smart cloud-based ai solution for suicide ideation detection leveraging large language models](https://www.medrxiv.org/content/10.1101/2023.09.25.23296062v1.full-text) |      medRxiv 2023       | Fine-tuned transformer for suicide ideation detection, Llama2-RAG for personalized psychoeducation and plans. |                       -                       |
+|            | [MentaLLaMA: interpretable mental health analysis on social media with large language models](https://dl.acm.org/doi/abs/10.1145/3589334.3648137) | ACM Web Conference 2024 | LLaMA2 with instruction tuning for detecting and explaining mental health conditions in social media. |  https://github.com/SteveKGYang/MentalLLaMA   |
+|            | [CBT-LLM: A Chinese large language model for cognitive behavioral therapy-based mental health question answering](https://arxiv.org/abs/2403.16008) |      arXiv 2024/03      | Chinese LLM instruction-tuned on CBT QA, delivers structured CBT-based mental health support. |   https://huggingface.co/Hongbin37/CBT-LLM    |
+|            | [WundtGPT: Shaping Large Language Models To Be An Empathetic, Proactive Psychologist](https://arxiv.org/abs/2406.15474) |      arXiv 2024/06      | LLaMA3-8B with instruction tuning and RLHF (KTO) to enhance empathy, generate diagnoses and counseling. |  https://huggingface.co/CCCCCCCCY/WundtLLaMA  |
+|            | [Psychological analysis of house-tree-person drawings based on multimodal large models](https://link.springer.com/article/10.1007/s00530-024-01610-7?fromPaywallRec=true) | Multimedia Systems 2025 | Integrates image segmentation and language models for multimodal analysis of House-Tree-Person drawings. |                       -                       |
+
+**Specific Diseases**
+
+|  Diseases  |                            Paper                             |                     Submitted in                     |                         Description                          |                         Project/demo                         |
+| :--------: | :----------------------------------------------------------: | :--------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Depression | [Detecting signs of depression from social media text using RoBERTa pre-trained language models](https://aclanthology.org/2022.ltedi-1.40/) |                   LT-EDI-ACL 2022                    | Fine-tuned RoBERTa for detecting and quantifying depression in social media text. | https://github.com/rafalposwiata/depression-detection-lt-edi-2022 |
+|            | [VS-LLM: Visual-Semantic Depression Assessment Based on LLM for Drawing Projection Test](https://link.springer.com/chapter/10.1007/978-981-97-8692-3_17) |                      PRCV 2024                       | Analyzes projection drawings to extract visual-semantic features of depression. |                              -                               |
+|            | [InterMind: A Doctor-Patient-Family Interactive Depression Assessment System Empowered by Large Language Models](https://arxiv.org/abs/2409.14878) |                    arXiv 2024/09                     | Instruction-tuned LLM with RAG for interactive, multi-party depression assessment and personalized intervention. |                              -                               |
+|   Autism   | [Chatasd: Llm-based ai therapist for asd](https://link.springer.com/chapter/10.1007/978-981-97-3626-3_23) | Digital TV & Wireless Multimedia Communications 2023 | Fine-tuned multimodal LLM for ASD knowledge dissemination, auxiliary diagnosis, and intervention. |                              -                               |
+|            | [SocialRecNet: A Multimodal LLM-Based Framework for Assessing Social Reciprocity in Autism Spectrum Disorder](https://ieeexplore.ieee.org/abstract/document/10888811?casa_token=Oxas21q2EeEAAAAA:pySvEZXze2InrKnXlJ0GpCKfbeXWcMVg0Jy49pwtu1neqGb9iQZCwR7VewgwgmO7PNnShOggRzo) |                     ICASSP 2025                      | Multimodal LLM integrating speech and text to assess social reciprocity and predict ADOS scores for ASD. |                              -                               |
+
+**Reference Awesome-repo**
+
+- [Psychiatry](https://github.com/RoarBoil/Awesome-Large-Language-Model-in-Psychiatry)
+
+
+
+
+
+## Diseases of the Nervous System (VI)
+
+**Medical Specialities**
+
+|  Speciality  |                            Paper                             |         Submitted in         |                         Description                          | Project/demo |
+| :----------: | :----------------------------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :----------: |
+|  Neurology   | [Neura: a specialized large language model solution in neurology](https://www.medrxiv.org/content/10.1101/2024.02.11.24302658v1.full-text) |         medRxiv 2024         | Retrieval-augmented LLM with memory modules for complex clinical reasoning and differential diagnosis in neurology. |      -       |
+|              | [ExKG-LLM: Leveraging Large Language Models for Automated Expansion of Cognitive Neuroscience Knowledge Graphs](https://arxiv.org/abs/2503.06479) |        arXiv 2025/03         | LLMs for automated named entity recognition and knowledge graph expansion in cognitive neuroscience literature. |      -       |
+| Neurosurgery | [AtlasGPT: dawn of a new era in neurosurgery for intelligent care augmentation, operative planning, and performance](https://thejns.org/view/journals/j-neurosurg/140/5/article-p1211.xml) | Journal of Neurosurgery 2024 | RAG-based LLM grounded in neurosurgical literature for precise surgical decision support and clinical summaries. |      -       |
+
+**Specific Diseases**
+
+|       Diseases        |                            Paper                             |                  Submitted in                   |                         Description                          |                Project/demo                 |
+| :-------------------: | :----------------------------------------------------------: | :---------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+|        Stroke         | [MBBo-RPSLD: Training a Multimodal BlenderBot for Rehabilitation in Post-Stroke Language Disorder](https://ieeexplore.ieee.org/abstract/document/10938093/?casa_token=I3a1ljED3noAAAAA:azl0vE3kWZPMYni4VhR6-hHFfrwb5AZh1dD0KvDcjZTjrYIe3IBUNm8xlCHXrXRmeJ5Jhh9vjp8) |      IEEE J Biomed Health Informatics 2025      | Multimodal encoding and conversational generation for personalized speech rehab in post-stroke aphasia. |                      -                      |
+|  Parkinson’s Disease  | [Autohealth: Advanced llm-empowered wearable personalized medical butler for parkinson’s disease management](https://ieeexplore.ieee.org/abstract/document/10427622?casa_token=S_4VGvIhd0sAAAAA:S2BpGpe-gHOYB7dWrhcZ1GVsTAEAhdqpgVVXt70OKOVTtxiCqv5N5t2kSTshxUXMmU2PKR-7giU) |                 IEEE CCWC 2024                  | LLM-powered assistant fusing wearable and speech data for individualized Parkinson’s detection and management. |                      -                      |
+|  Alzheimer’s Disease  | [DALK: Dynamic Co-Augmentation of LLMs and KG to answer Alzheimer's Disease Questions with Scientific Literature](https://arxiv.org/abs/2405.04819) |                  arXiv 2024/05                  | Builds a disease-specific knowledge graph using LLMs to enhance retrieval and Q&A for Alzheimer’s. |    https://github.com/David-Li0406/DALK     |
+|                       | [DECT: Harnessing LLM-assisted Fine-Grained Linguistic Knowledge and Label-Switched and Label-Preserved Data Generation for Diagnosis of Alzheimer's Disease](https://arxiv.org/abs/2502.04394) |                  arXiv 2025/02                  | Fine-tuned BioBERT extracts fine-grained linguistic features from speech for Alzheimer’s detection. |        https://dementia.talkbank.org        |
+|                       | [AD-GPT: Large Language Models in Alzheimer's Disease](https://arxiv.org/abs/2504.03071) |                  arXiv 2025/04                  | Stacked BERT-Llama3 model for Alzheimer’s genetic information retrieval and gene-disease relationship analysis. |                      -                      |
+|                       | [Ad-autogpt: An autonomous gpt for alzheimer’s disease infodemiology](https://arxiv.org/abs/2306.10095) |         PLOS Global Public Health 2025          | Langchain and GPT-4-based agent automates news collection and topic analysis for Alzheimer’s infodemiology. | https://github.com/levyisthebest/AD-AutoGPT |
+| Vestibular Schwannoma | [neuroGPT-X: toward a clinic-ready large language model](https://thejns.org/view/journals/j-neurosurg/140/4/article-p1041.xml) |          Journal of Neurosurgery 2023           | RAG-enhanced GPT model with domain-specific literature and conversational memory for point-of-care support. |                      -                      |
+|       Epilepsy        | [EpilepsyLLM: Domain-specific large language model fine-tuned with epilepsy medical knowledge](https://arxiv.org/abs/2401.05908) |                  arXiv 2024/01                  | LLaMA-based LLM fine-tuned on specialized instruction datasets to improve epilepsy domain expertise. |                      -                      |
+|    Chronic Vertigo    | [Classification of Chronic Dizziness Using Large Language Models](https://link.springer.com/article/10.1007/s41666-024-00178-1) | Journal of Healthcare Informatics Research 2025 | LLM-driven feature extraction and interpretable ML for automated classification of chronic vertigo etiologies. |                      -                      |
+
+**Reference Awesome-repo**
+
+- [Neurology](https://github.com/alxndrkalinin/awesome-deepneuroimage)
+
+
+
+## Diseases of the Eye and Adnexa (VII)
+
+**Medical Specialities**
+
+|  Speciality   |                            Paper                             |               Submitted in               |                         Description                          |               Project/demo                |
+| :-----------: | :----------------------------------------------------------: | :--------------------------------------: | :----------------------------------------------------------: | :---------------------------------------: |
+| Ophthalmology | [Visionfm: a multi-modal multi-task vision foundation model for generalist ophthalmic artificial intelligence](https://arxiv.org/abs/2310.04992) |              arXiv 2023/10               | Large-scale self-supervised pretraining for segmentation, landmark detection, and biomarker prediction. |  https://github.com/ABILab-CUHK/VisionFM  |
+|               | [Ophtha-llama2: A large language model for ophthalmology](https://arxiv.org/abs/2312.04906) |              arXiv 2023/12               | LoRA fine-tuning on clinical reports for ophthalmic impression generation from imaging. |                     -                     |
+|               | [OphGLM: An ophthalmology large language-and-vision assistant](https://www.sciencedirect.com/science/article/pii/S0933365724002434) | Artificial Intelligence in Medicine 2024 | Multimodal model for interactive fundus image analysis and Q&A. |    https://github.com/ML-AILab/OphGLM     |
+|               | [EYE-Llama, an in-domain large language model for ophthalmology](https://pmc.ncbi.nlm.nih.gov/articles/PMC11092466/) |               bioRxiv 2024               | Two-stage pretraining and QLoRA fine-tuning for improved ophthalmic QA. |   https://github.com/QIAIUNCC/EYE-Llama   |
+|               | [Eyegpt: Ophthalmic assistant with large language models](https://arxiv.org/abs/2403.00840) |              arXiv 2024/03               | Domain-specific fine-tuning and retrieval-augmented generation for ophthalmic Q&A and reasoning. |                     -                     |
+|               | [Eyefound: a multimodal generalist foundation model for ophthalmic imaging](https://arxiv.org/abs/2405.11338) |              arXiv 2024/05               | Masked autoencoder for robust ocular and systemic disease prediction and VQA. |                     -                     |
+|               | [Visionunite: A vision-language foundation model for ophthalmology enhanced with clinical knowledge](https://arxiv.org/abs/2408.02865) |              arXiv 2024/08               | Fuses vision encoder and LLM for multimodal, multi-disease diagnosis and clinical explanation. | https://github.com/HUANGLIZI/VisionUnite  |
+|               | [EyeCLIP: A visual-language foundation model for multi-modal ophthalmic image analysis](https://arxiv.org/abs/2409.06644) |              arXiv 2024/09               | CLIP-based multimodal pretraining for zero-shot disease classification, prediction, and VQA. |   https://github.com/Michi-3000/EyeCLIP   |
+|               | [Language Enhanced Model for Eye (LEME): An Open-Source Ophthalmology-Specific Large Language Model](https://arxiv.org/abs/2410.03740) |              arXiv 2024/10               | Instruction-tuned LLM for ophthalmic QA, diagnosis, and EHR summarization. | https://github.com/qingyu-qc/leme_eye_llm |
+
+**Specific Diseases**
+
+|             Diseases             |                            Paper                             |              Submitted in              |                         Description                          |                         Project/demo                         |
+| :------------------------------: | :----------------------------------------------------------: | :------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|             Glaucoma             | [Xiaoqing: A Q&A model for glaucoma based on LLMs](https://www.sciencedirect.com/science/article/pii/S0010482524004839?casa_token=81p7wjCO8b8AAAAA:NsQb1s5X8Ht7yamAMmc4G2wZlxxXKhB4mwr6PJjyaDulsTouxpq6KIxIQ2bJJThB-lEvtfb7PQ) | Computers in Biology and Medicine 2024 | LoRA fine-tuned ChatGLM-6B with RAG for glaucoma Q&A using specialized and external data. | [https://qa.glaucoma-assistant.com//qa](https://qa.glaucoma-assistant.com/#/qa) |
+|       Diabetic Retinopathy       | [DR-GPT: A large language model for medical report analysis of diabetic retinopathy patients](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297706) |             Plos One 2024              | Fine-tuned transformer for automated severity and gradability classification from clinical reports. |                              -                               |
+|  Choroidal and Retinal Diseases  | [ICGA-GPT: report generation and question answering for indocyanine green angiography images](https://bjo.bmj.com/content/108/10/1450.abstract) | British Journal of Ophthalmology 2024  | Multimodal LLM for bilingual report generation and Q&A from ICG angiography images. |                              -                               |
+|                                  | [RetinalGPT: A Retinal Clinical Preference Conversational Assistant Powered by Large Vision-Language Models](https://arxiv.org/abs/2503.03987) |             arXiv 2025/03              | LLaVA-like multimodal model for disease diagnosis, lesion localization, analysis, and dialogue on fundus images. |                              -                               |
+| Age-related Macular Degeneration | [Specialized curricula for training vision-language models in retinal image analysis](https://github.com/RobbieHolland/SpecialistVLMs?tab=readme-ov-file) |             Preprint 2024              | Instruction-tuned MiniGPT-4-like model for AMD staging, referral, report generation, and VQA on OCT. |       https://github.com/RobbieHolland/SpecialistVLMs        |
+
+**Reference Awesome-repo**
+
+- [Ophthalmology-chrisnielsen](https://github.com/chrisnielsen/awesome-ophthalmology)
+- [Ophthalmology-AIEyeSystem](https://github.com/AIEyeSystem/Awesome-Foundation-Models-in-Ophthalmology)
+
+
+
+## Diseases of the Ear and Mastoid Process (VIII)
+
+**Medical Specialities**
+
+|   Speciality   |                            Paper                             | Submitted in |                         Description                          | Project/demo |
+| :------------: | :----------------------------------------------------------: | :----------: | :----------------------------------------------------------: | :----------: |
+| Otolaryngology | [ENTAgents: AI Agents for Complex Knowledge Otolaryngology](https://www.medrxiv.org/content/10.1101/2025.01.01.25319863v1.full) | medRxiv 2025 | ENTAgents integrates RAG and multi-agent LLMs to enhance clinical reasoning in otolaryngology. |      -       |
+
+**Specific Diseases**
+
+|       Diseases        |                            Paper                             |         Submitted in         |                         Description                          | Project/demo |
+| :-------------------: | :----------------------------------------------------------: | :--------------------------: | :----------------------------------------------------------: | :----------: |
+| Vestibular Schwannoma | [neuroGPT-X: toward a clinic-ready large language model](https://thejns.org/view/journals/j-neurosurg/140/4/article-p1041.xml) | Journal of Neurosurgery 2023 | neuroGPT-X augments a GPT-based conversational platform with domain-specific knowledge for vestibular schwannoma management. |      -       |
+
+
+
+
+
+## Diseases of the Circulatory System (IX)
+
+**Medical Specialities**
+
+|    Speciality     |                            Paper                             |                   Submitted in                    |                         Description                          |                   Project/demo                    |
+| :---------------: | :----------------------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------------: |
+|    Cardiology     | [HuBERT-ECG: a self-supervised foundation model for broad and scalable cardiac applications](https://www.medrxiv.org/content/10.1101/2024.11.14.24317328v1) |                   medRxiv 2024                    | HuBERT-ECG is a self-supervised foundation model for scalable cardiac tasks based on ECG data. | https://huggingface.co/Edoardo-BS/hubert-ecg-base |
+|                   | [Zodiac: A Cardiologist-Level LLM Framework for Multi-Agent Diagnostics](https://arxiv.org/abs/2410.02026) |                   arXiv 2024/10                   | Zodiac uses a multi-agent LLM framework for multimodal patient data and cardiologist-level reporting. |                         -                         |
+|                   | [MoRE: Multi-Modal Contrastive Pre-training with Transformers on X-Rays, ECGs, and Diagnostic Report](https://arxiv.org/abs/2410.16239) |                   arXiv 2024/10                   | MoRE enables zero-shot classification and cross-modal retrieval by integrating X-ray, ECG, and report representations. |          https://github.com/svthapa/MoRE          |
+|                   | [CVDLLM: Automated Cardiovascular Disease Diagnosis with Large-Language-Model-Assisted Graph Attentive Feature Interaction](https://ieeexplore.ieee.org/abstract/document/10835161?casa_token=DWxqWsqxHm0AAAAA:NEIMDTNIba7EfLsLcvqiLiNbTAw1MyKncTarjHUIbP5_6JOJiDohTn8BmsKIFsPMHxSOFR3IsAU) | IEEE Transactions on Artificial Intelligence 2025 | CVDLLM combines time-series neural networks, graph attention, and LLM embeddings for ECG-based multi-disease classification. |                         -                         |
+|                   |                          CardioMind                          |                         -                         | CardioMind is a cardiovascular AI model designed to enhance intelligent medical diagnosis. |       https://www.aibase.com/zh/news/15752        |
+| Internal Medicine | [Inmd-x: Large language models for internal medicine doctors](http://arxiv.org/abs/2402.11883) |                   arXiv 2024/02                   | InMD-X applies continued pre-training and LoRA-based fine-tuning for robust internal medicine QA. |                         -                         |
+
+**Specific Diseases**
+
+|                   Diseases                   |                            Paper                             | Submitted in  |                         Description                          |             Project/demo             |
+| :------------------------------------------: | :----------------------------------------------------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------: |
+|                  Arrhythmia                  | [Ecgbert: Understanding hidden language of ecgs with self-supervised representation learning](https://arxiv.org/abs/2306.06340) | arXiv 2023/06 | ECGBERT uses a BERT-style transformer for contextual ECG representation and precise arrhythmia detection. |                                      |
+|                                              | [Ecg semantic integrator (esi): A foundation ecg model pretrained with llm-enhanced cardiological text](https://arxiv.org/abs/2405.19366) | arXiv 2024/05 | ESI integrates RAG and multimodal pretraining to automate ECG description and arrhythmia diagnosis. | https://github.com/comp-well-org/ESI |
+| Anomalous Aortic Origin of Coronary Arteries | [LLM-TA: An LLM-Enhanced Thematic Analysis Pipeline for Transcripts from Parents of Children with Congenital Heart Disease](https://arxiv.org/abs/2502.01620) | arXiv 2025/02 | LLM-TA uses a GPT-4o-driven pipeline to extract codes and themes from interview transcripts for AAOCA. | https://github.com/jiaweixu98/LLM-TA |
+
+**Reference Awesome-repo**
+
+- [Cardiology](https://github.com/cbailes/awesome-ai-cardiology)
+
+
+
+## Diseases of the Respiratory System (X)
+
+**Medical Specialities**
+
+| Speciality  |                            Paper                             | Submitted in  |                         Description                          |             Project/demo              |
+| :---------: | :----------------------------------------------------------: | :-----------: | :----------------------------------------------------------: | :-----------------------------------: |
+| Pulmonology | [RespLLM: Unifying Audio and Text with Multimodal LLMs for Generalized Respiratory Health Prediction](https://arxiv.org/abs/2410.05361) | arXiv 2024/10 | RespLLM integrates clinical text and respiratory audio signals to automate comprehensive respiratory health screening and diagnosis. | https://github.com/evelyn0414/RespLLM |
+|             | [LUNG-GPT: Lung sound analysis with LLM-Based model](https://www.researchsquare.com/article/rs-5671115/v1) | Preprint 2024 | LUNG-GPT processes lung sound recordings via Mel-spectrograms and deep learning for disease detection and detailed respiratory event analysis. | https://github.com/evelyn0414/RespLLM |
+|             | [Towards open respiratory acoustic foundation models: Pretraining and benchmarking](https://arxiv.org/abs/2406.16148) | NeurIPS 2024  | The OPERA framework pre-trains three foundation models on 130,000+ respiratory sounds, outperforming general audio models on 16/19 health tasks and showing strong generalizability. |  https://github.com/evelyn0414/OPERA  |
+
+**Specific Diseases**
+
+|          Diseases           |                            Paper                             |                         Submitted in                         |                         Description                          | Project/demo |
+| :-------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------: |
+|           Asthma            | [AsthmaBot: Multi-modal, Multi-Lingual Retrieval Augmented Generation For Asthma Patient Support](https://arxiv.org/abs/2409.15815) |                        arXiv 2024/09                         | AsthmaBot applies multimodal, multilingual RAG to answer asthma-related questions using text, images, and videos. |      -       |
+| Chronic Lung Disease (COPD) | [Copd-ChatGLM: A Chronic Obstructive Pulmonary Disease Diagnostic Model](https://ieeexplore.ieee.org/abstract/document/10822841?casa_token=anOzxIzExRgAAAAA:RvtCXfQwN_AusJq4GNPy1ubHONlTMY7U5XfgFZzsSGw019sv1cpGCabcW0U0Sug_32kxr9hVp9c) | IEEE International Conference on Bioinformatics and Biomedicine 2024 | Copd-ChatGLM fine-tunes LLMs on patient histories and CT reports for accurate COPD diagnosis and personalized treatment recommendations. |      -       |
+
+
+
+## Diseases of the Digestive System (XI)
+
+**Medical Specialities**
+
+|    Speciality    |                            Paper                             |        Submitted in        |                         Description                          |                      Project/demo                       |
+| :--------------: | :----------------------------------------------------------: | :------------------------: | :----------------------------------------------------------: | :-----------------------------------------------------: |
+|   Stomatology    | [Cephgpt-4: An interactive multimodal cephalometric measurement and diagnostic system with visual large language model](https://arxiv.org/abs/2307.07518) |       arXiv 2023/07        | Multimodal fine-tuning automates cephalometric X-ray analysis and interactive doctor-patient dialogue. |                            -                            |
+|                  | [Dental Loop Chatbot: A Prototype Large Language Model Framework for Dentistry](https://www.mdpi.com/2674-113X/3/4/29) |       Software 2024        | LLaMA2-based chatbot with RAG delivers real-time, guideline-driven clinical decision support for dental care. | https://github.com/faisalahmedsifat/Dental-Loop-Chatbot |
+|    Hepatology    | [Development of a liver disease–specific large language model chat interface using retrieval-augmented generation](https://journals.lww.com/hep/abstract/2024/11000/development_of_a_liver_disease_specific_large.20.aspx) |      Hepatology 2024       | RAG-integrated LLM provides accurate, knowledge-based Q&A and decision support for liver diseases. |                                                         |
+| Gastroenterology | [GastroBot: a Chinese gastrointestinal disease chatbot based on the retrieval-augmented generation](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2024.1392555/full) | Frontiers in Medicine 2024 | RAG-based chatbot with GI disease knowledge base delivers precise, explainable answers and diagnostic advice. |           https://github.com/hujili007/ragbot           |
+
+**Specific Diseases**
+
+|              Diseases               |                            Paper                             |              Submitted in               |                         Description                          |                         Project/demo                         |
+| :---------------------------------: | :----------------------------------------------------------: | :-------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Temporomandibular Joint Dysfunction | [PAINe: An Artificial Intelligence--based Virtual Assistant to Aid in the Differentiation of Pain of Odontogenic versus Temporomandibular Origin](https://www.sciencedirect.com/science/article/abs/pii/S0099239924005247) |       Journal of Endodontics 2024       | ChatGPT-4 API with pain screener automates initial differential diagnosis of jaw-related pain. |                              -                               |
+| Dental Calculus, Gingivitis, Caries | [Oral screening of dental calculus, gingivitis and dental caries through segmentation on intraoral photographic images using deep learning](https://link.springer.com/article/10.1186/s12903-024-05072-1) |          BMC Oral Health 2024           | Deep learning pipeline segments intraoral photos for detection and grading of oral diseases. | https://drive.google.com/drive/folders/1vo_qv3EF9eG4Q2dPvtb_rXb4ttBkYJq_ |
+|        Periodontal Diseases         | [Development and Comparative Evaluation of a Reinstructed GPT-4o Model Specialized in Periodontology](https://onlinelibrary.wiley.com/doi/full/10.1111/jcpe.14101) | Journal of Clinical Periodontology 2025 | GPT-4o enhanced with RAG and knowledge base provides accurate, context-aware answers in periodontology. |                                                              |
+
+
+
+## Diseases of the Skin and Subcutaneous Tissue (XII)
+
+**Medical Specialities**
+
+| Speciality  |                            Paper                             |        Submitted in        |                         Description                          |                     Project/demo                      |
+| :---------: | :----------------------------------------------------------: | :------------------------: | :----------------------------------------------------------: | :---------------------------------------------------: |
+| Dermatology | [Pre-trained multimodal large language model enhances dermatological diagnosis using SkinGPT-4](https://www.nature.com/articles/s41467-024-50043-3) | Nature Communications 2024 | Multimodal system aligns vision transformer and LLM to diagnose skin images and recommend interactive treatments. |      https://github.com/JoshuaChou2018/SkinGPT-4      |
+|             | [SkinGEN: An explainable dermatology diagnosis-to-generation framework with interactive vision-language models](https://dl.acm.org/doi/full/10.1145/3708359.3712098) |          IUI 2025          | Uses SkinGPT-4 for image-based diagnosis and integrates Stable Diffusion for personalized visual explanations. |                           -                           |
+|             | OpenBioLLm-Derm: A Dermatology Large Language Model Based on Llama-3 |             -              | Fine-tuned LLaMA model providing accurate, clear, and helpful answers for dermatological Q&A and education. | https://huggingface.co/brucewayne0459/OpenBioLLm-Derm |
+
+**Specific Diseases**
+
+|  Diseases  |                            Paper                             | Submitted in  |                         Description                          | Project/demo |
+| :--------: | :----------------------------------------------------------: | :-----------: | :----------------------------------------------------------: | ------------ |
+| Mpox Virus | [MpoxVLM: A Vision-Language Model for Diagnosing Skin Lesions from Mpox Virus Infection](https://arxiv.org/abs/2411.10888) | arXiv 2024/11 | Multimodal VLM (CLIP, ViT, LLaMA2) jointly analyzes images and clinical info for accurate mpox diagnosis. |              |
+
+
+
+## Diseases of the Musculoskeletal System and Connective Tissue (XIII)
+
+**Medical Specialities**
+
+|  Speciality  |                            Paper                             |               Submitted in               |                         Description                          | Project/demo |
+| :----------: | :----------------------------------------------------------: | :--------------------------------------: | :----------------------------------------------------------: | :----------: |
+| Orthopedics  | [Ortho AI: World’s first artificial intelligence in orthopaedics](https://pmc.ncbi.nlm.nih.gov/articles/PMC10753683/) | Journal of Orthopaedic Case Reports 2023 | Multimodal AI integrates imaging and text for automated bone disease recognition and decision support. |      -       |
+|              | [Orthodoc: Multimodal large language model for assisting diagnosis in computed tomography](https://arxiv.org/abs/2409.09052#) |              arXiv 2024/09               | Multimodal fine-tuning with RAG and reasoning for orthopedic CT interpretation and diagnostic reporting. |      -       |
+| Rheumatology | [TCMRD-KG: innovative design and development of rheumatology knowledge graph in ancient Chinese literature assisted by large language models](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1535596/full) |      Frontiers in Pharmacology 2025      | LLMs extract entities/relations to build a TCM knowledge graph for rheumatology to aid structured retrieval. |      -       |
+
+**Specific Diseases**
+
+|       Diseases       |                            Paper                             | Submitted in  |                         Description                          |                      Project/demo                      |
+| :------------------: | :----------------------------------------------------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------: |
+| Rheumatoid Arthritis | [Hengqin-RA-v1: Advanced Large Language Model for Diagnosis and Treatment of Rheumatoid Arthritis with Dataset based Traditional Chinese Medicine](https://arxiv.org/abs/2501.02471) | arXiv 2025/01 | LoRA-adapted LLM fuses TCM and clinical data for RA diagnosis, syndrome differentiation, and treatment. |                           -                            |
+|    Osteoarthritis    | [Evaluating and Enhancing Large Language Models Performance in Domain-specific Medicine: Osteoarthritis Management with DocOA](https://arxiv.org/abs/2401.12998) | arXiv 2024/01 | RAG-based GPT-4 enables evidence-based Q&A and individualized OA management using external knowledge. | https://github.com/openmedlab/Osteoarthritis-Benchmark |
+|        Spine         |       SpineGPT: AI assisted total spinal care solution       |       -       | Fine-tuned multimodal LLM provides diagnosis, counseling, and surgical support for spinal diseases. |              http://www.spine.kr/spineai               |
+
+
+
+## Diseases of the Genitourinary System (XIV)
+
+**Medical Specialities**
+
+| Speciality |                            Paper                             | Submitted in  |                         Description                          |                    Project/demo                     |
+| :--------: | :----------------------------------------------------------: | :-----------: | :----------------------------------------------------------: | :-------------------------------------------------: |
+| Nephrology | [KidneyTalk-open: No-code Deployment of a Private Large Language Model with Medical Documentation-Enhanced Knowledge Database for Kidney Disease](https://arxiv.org/abs/2503.04153) | arXiv 2025/03 | Integrates LLMs and a nephrology knowledge base for documentation-enhanced QA and decision support in kidney diseases. | https://github.com/PKUDigitalHealth/KidneyTalk-open |
+
+**Specific Diseases**
+
+|        Diseases        |                            Paper                             |        Submitted in         |                         Description                          |                Project/demo                |
+| :--------------------: | :----------------------------------------------------------: | :-------------------------: | :----------------------------------------------------------: | :----------------------------------------: |
+| Kidney Transplantation | [exKidneyBERT: a language model for kidney transplant pathology reports and the crucial role of extended vocabularies](https://pubmed.ncbi.nlm.nih.gov/38435545/) | PeerJ Computer Science 2024 | Uses an extended Clinical BERT to extract and classify key pathology report information in kidney transplantation. | https://github.com/TianchengY/exKidneyBERT |
+| Chronic Kidney Disease |                            CKD-AI                            |              -              | GPT-4-powered chatbot providing personalized CKD information and self-management guidance. |        https://www.ckd-ai.com/about        |
+
+
+
+
+
+## Certain Conditions Originating in the Perinatal Period (XVI)
+
+**Medical Specialities**
+
+|      Speciality      |                            Paper                             |                      Submitted in                      |                         Description                          |                         Project/demo                         |
+| :------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|      Pediatrics      | [PediatricsGPT: Large language models as chinese medical assistants for pediatric applications](https://arxiv.org/abs/2405.19266) |                      NeurIPS 2024                      | Multi-stage pre-training and instruction tuning for pediatric Q&A, diagnosis, and treatment recommendations. | https://github.com/ydk122024/PediatricsGPT?tab=readme-ov-file |
+|                      | [A Medical Multimodal Large Language Model for Pediatric Pneumonia](https://arxiv.org/abs/2409.02608) | IEEE Journal of Biomedical and Health Informatics 2025 | Multimodal encoders and staged training to generate pediatric pneumonia reports from text and images. |                              -                               |
+|                      | [MedicalGLM: A Pediatric Medical Question Answering Model with a quality evaluation mechanism](https://www.sciencedirect.com/science/article/pii/S153204642500022X?casa_token=pbiixVIZYcAAAAAA:I1pqTv8YsMeF5l26aCr-JLNUy5vCUsMca5MvTjCZ7j4zSkrs1ga6Gn9xziamqyZsCvii4FHTTw) |         Journal of Biomedical Informatics 2025         | Reward modeling and quality-driven fine-tuning for high-quality pediatric medical responses. |                              -                               |
+| Pediatric Cardiology | [Development and Validation of a Pediatric Cardiology-Specific Large Language Model Chat Interface using Retrieval Augmented Generation](https://www.ahajournals.org/doi/abs/10.1161/circ.150.suppl_1.4145650) |                    Circulation 2024                    | Retrieval-augmented generation and prompt engineering for specialized pediatric cardiology Q&A interface. |                              -                               |
+
+
+
+## Congenital Malformations, Deformations, and Chromosomal Abnormalities (XVII)
+
+**Medical Specialities**
+
+|  Speciality  |                            Paper                             |                      Submitted in                      |                         Description                          |                Project/demo                 |
+| :----------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+| Rare Disease | [Rare disease diagnosis using knowledge guided retrieval augmentation for ChatGPT](https://www.sciencedirect.com/science/article/pii/S1532046424001205?casa_token=Ak04XExCZ1QAAAAA:yABNYqEMkckbQhTq2eriMoOxXPugmwTQElsRJDwqk2eSwwF1DwHkj1eBEzNUWNCNuPlWLwJWbw) |         Journal of Biomedical Informatics 2024         | Retrieval-augmented generation (RAG) enhances ChatGPT for context-aware rare disease diagnosis with explainable reasoning. |                      -                      |
+|              | [RDguru: a conversational intelligent agent for rare diseases](https://ieeexplore.ieee.org/abstract/document/10684379/) | IEEE Journal of Biomedical and Health Informatics 2024 | Integrates LangChain-based RAG, ontology-based phenotype annotation, and multi-source fusion for traceable rare disease diagnosis. |                      -                      |
+|              | [Zebra-Llama: A Context-Aware Large Language Model for Democratizing Rare Disease Knowledge](https://ieeexplore.ieee.org/abstract/document/10684379/) |                     arXiv 2024/11                      | LoRA fine-tuned LLM with precise RAG pipeline provides accessible, well-cited Ehlers-Danlos Syndrome responses. | https://github.com/karthiksoman/zebra-llama |
+
+**Specific Diseases**
+
+|         Diseases         |                            Paper                             |   Submitted in   |                         Description                          | Project/demo |
+| :----------------------: | :----------------------------------------------------------: | :--------------: | :----------------------------------------------------------: | :----------: |
+| Congenital Heart Disease | [Development and Validation of a Pediatric Cardiology-Specific Large Language Model Chat Interface using Retrieval Augmented Generation](https://www.ahajournals.org/doi/abs/10.1161/circ.150.suppl_1.4145650) | Circulation 2024 | Retrieval-augmented generation and prompt engineering for pediatric cardiology clinical question answering. |      -       |
+
+
+
+## Factors Influencing Health Status and Contact with Health Services (XXI)
+
+**Medical Specialities**
+
+| Speciality     | Paper                                                        | Submitted in                                                 | Description                                                  |                    Project/demo                    |
+| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | :------------------------------------------------: |
+| Radiology      | [Roentgen: vision-language foundation model for chest x-ray generation](https://arxiv.org/abs/2211.12737) | arXiv 2022/11                                                | Latent diffusion model for text-to-image chest X-ray synthesis and data augmentation. |      https://github.com/StanfordMIMI/RoentGen      |
+|                | [Xraygpt: Chest radiographs summarization using medical vision-language models](https://arxiv.org/abs/2306.07971) | arXiv 2023/06                                                | Multimodal architecture aligning MedClip encoder with Vicuna LLM for image-grounded summaries. |       https://github.com/mbzuai-oryx/XrayGPT       |
+|                | [CohortGPT: An enhanced gpt for participant recruitment in clinical study](https://arxiv.org/abs/2307.11346) | arXiv 2023/07                                                | Uses knowledge graphs and dynamic CoT prompting for clinical text classification in participant recruitment. |                         -                          |
+|                | [Radiology-Llama2: Best-in-class large language model for radiology](https://arxiv.org/abs/2309.06419) | arXiv 2023/09                                                | Instruction-tuned and LoRA-fine-tuned Llama for radiology report generation. |                         -                          |
+|                | [ChatRadio-Valuer: A chat large language model for generalizable radiology report generation](https://arxiv.org/abs/2310.05242) | arXiv 2023/10                                                | Supervised fine-tuning on Llama2 with domain-specific data for radiology report generation. |                         -                          |
+|                | [Radialog: A large vision-language model for radiology report generation and conversational assistance](https://arxiv.org/abs/2311.18681) | arXiv 2023/11                                                | Vision-language pipeline for interactive radiology report generation and assistance. |       https://github.com/ChantalMP/RaDialog        |
+|                | [Cxr-clip: Toward large scale chest x-ray language-image pre-training](https://arxiv.org/abs/2310.13292) | MICCAI 2023                                                  | CLIP-based vision-language model for zero/few-shot disease classification and retrieval. |       https://github.com/Soombit-ai/cxr-clip       |
+|                | [R2gengpt: Radiology report generation with frozen llms](https://arxiv.org/abs/2309.09812) | Meta-Radiology 2023                                          | Vision-language pipeline aligning visual features with LLMs for automated report generation. |      https://github.com/wang-zhanyu/R2GenGPT       |
+|                | [ConTEXTual net: a multimodal vision-language model for segmentation of pneumothorax](https://arxiv.org/abs/2303.01615) | Journal of Imaging Informatics in Medicine 2024              | Cross-attention U-Net model for text-guided pneumothorax segmentation. | https://github.com/zhuemann/ConTEXTualSegmentation |
+|                | [A Vision-Language foundation model to enhance efficiency of chest x-ray interpretation](https://arxiv.org/abs/2401.12208) | arXiv 2024/01                                                | Foundation vision-language model for comprehensive chest X-ray interpretation. |     https://github.com/Stanford-AIMI/CheXagent     |
+|                | [Radiology-GPT: a large language model for radiology](https://arxiv.org/abs/2306.08666) | Meta-Radiology 2025                                          | LoRA-based fine-tuning on Llama for generating clinical impressions from radiological findings. |                         -                          |
+|                | [RadSearch, a semantic search model for accurate radiology report retrieval with large language model integration](https://pubs.rsna.org/doi/abs/10.1148/radiol.240686) | Radiology 2025                                               | Semantic search model for improved report retrieval and diagnostic accuracy. |                         -                          |
+| Pathology      | PathGPT                                                      | -                                                            | Fine-tuned Llama-7B for pathology question answering.        |      https://github.com/superjamessyx/PathGPT      |
+|                | [A visual-language foundation model for computational pathology](https://www.nature.com/articles/s41591-024-02856-4) | Nature Medicine 2024                                         | Contrastive vision-language foundation model for histology classification, segmentation, and retrieval. |        https://github.com/mahmoodlab/CONCH         |
+|                | [Pa-llava: A large language-vision assistant for human pathology image understanding](https://arxiv.org/abs/2408.09530) | IEEE International Conference on Bioinformatics and Biomedicine 2024 | Multimodal assistant for pathology image understanding and visual Q&A via staged training. |   https://github.com/ddw2AIGROUP2CQUPT/PA-LLaVA    |
+|                | [Hibou: A family of foundational vision transformers for pathology](https://arxiv.org/abs/2406.05074) | arXiv 2024/06                                                | Self-supervised foundational vision transformers pretrained on whole slide images. |          https://github.com/HistAI/hibou           |
+| Anesthesiology | [Hypnos: A domain-specific large language model for anesthesiology](https://www.sciencedirect.com/science/article/pii/S092523122500061X?casa_token=YrXvatTwahUAAAAA:drNb7cLEMDWtE2sarO5-MTixdw4yYDmxXblr9uYhXI5Xtx64Z8QsAtxY8qMDzD6fDzAjHyRAPQ) | Neurocomputing 2025                                          | Progressively fine-tuned Llama for anesthesia-specific question answering and exam tasks. |                         -                          |
+
+**Reference Awesome-repo**
+
+- [Pathology](https://github.com/open-pathology/awesome-pathology)
+- [Radiology](https://github.com/openlifescience-ai/Awesome-AI-LLMs-in-Radiology)
+
+
+
+
+
+## Codes for Special Purposes (XXII)
+
+**Medical Specialities**
+
+|          Speciality          |                            Paper                             |                         Submitted in                         |                         Description                          |                Project/demo                 |
+| :--------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+| Traditional Chinese Medicine | [Qibo: A large language model for traditional chinese medicine](https://arxiv.org/abs/2403.16056) |                        arXiv 2024/03                         | Two-phase training with retrieval-augmented prompting for TCM Q&A and prescription entity recognition. |                      -                      |
+|                              | [BianCang: A Traditional Chinese Medicine Large Language Model](https://arxiv.org/abs/2411.11027) |                        arXiv 2024/11                         | Two-stage training on Qwen2/2.5 for improved syndrome differentiation, diagnosis, and Q&A. | https://github.com/QLU-NLP/BianCang-TCM-LLM |
+|                              | [Lingdan: enhancing encoding of traditional Chinese medicine knowledge for clinical reasoning tasks with large language models](https://academic.oup.com/jamia/article/31/9/2019/7718082?login=true#no-access-message#no-access-message) |                          JAMIA 2024                          | QLoRA fine-tuning and chain-of-thought reasoning for patent medicine Q&A, symptom analysis, and herbal prescription recommendation. |  https://github.com/TCMAI-BJTU/LingdanLLM   |
+|                              | [TCMChat: A generative large language model for traditional Chinese medicine](https://www.sciencedirect.com/science/article/pii/S1043661824004754) |                Pharmacological Research 2024                 | Pre-training and supervised fine-tuning for TCM knowledge Q&A, diagnosis, and formula recommendation. |    https://github.com/daiyizheng/TCMChat    |
+|                              | [TCM-GPT: Efficient pre-training of large language models for domain adaptation in Traditional Chinese Medicine](https://www.sciencedirect.com/science/article/pii/S2666990024000259) |   Computer Methods and Programs in Biomedicine Update 2024   | Keyword-driven corpus retrieval and LoRA-based fine-tuning for TCM exams and clinical diagnosis. |                      -                      |
+|                              | [MedChatZH: A tuning LLM for traditional Chinese medicine consultations](https://www.sciencedirect.com/science/article/pii/S0010482524003743?casa_token=GcRO9R5sQxkAAAAA:K7t5kJwITR8xl-DqP5n4jjEKkK5ukvdGHoMni1Fpby9hYZ1GdaoCwF2LxNrFG_XjKuzKr_LGtA) |            Computers in Biology and Medicine 2024            | Continued pre-training and instruction tuning on Baichuan-7B for TCM Q&A and patient dialogue. |    https://github.com/tyang816/MedChatZH    |
+|                              | [PresRecRF: Herbal prescription recommendation via the representation fusion of large TCM semantics and molecular knowledge](https://www.sciencedirect.com/science/article/abs/pii/S0944711324007736?casa_token=iN8f4nRNamEAAAAA:CRtxn-nwsJs3Njte5MVyX3lOMU898ySWVR1KTs2Rk2JjjCbwh9PbI1kXb4QXbRv7gH3W1CPLFA) |                      Phytomedicine 2024                      | Combines molecular knowledge graphs and semantic embeddings for multitask herbal and dosage recommendation. |                                             |
+|                              | [PresRecST: A novel herbal prescription recommendation algorithm for real-world patients with integration of syndrome differentiation and treatment planning](https://doi.org/10.1093/jamia/ocae066) |                 Oxford University Press 2024                 | A knowledge graph-based model for TCM prescription recommendation aligned with clinical practice. |    https://github.com/2020MEAI/PresRecST    |
+|                              | [Zhongjing: Enhancing the chinese medical capabilities of large language model through expert feedback and real-world multi-turn dialogue](https://ojs.aaai.org/index.php/AAAI/article/view/29907) |                          AAAI 2024                           | Continual pre-training and RLHF for multi-turn TCM dialogue, diagnostic support, and drug recommendation. |  https://github.com/SupritYoung/Zhongjing   |
+|                              | [CPMI-ChatGLM: parameter-efficient fine-tuning ChatGLM with Chinese patent medicine instructions](https://www.nature.com/articles/s41598-024-56874-w#Sec1) |                   Scientific Reports 2024                    | Parameter-efficient fine-tuning for patent medicine recommendation and usage instruction automation. |   https://github.com/liucann/CPMI-ChatGLM   |
+|                              | [TCM-FTP: Fine-Tuning Large Language Models for Herbal Prescription Prediction](https://ieeexplore.ieee.org/abstract/document/10822451?casa_token=0_VnP2Z2FHgAAAAA:8ldYmLo9RZD4a5Niy-88aRb_dkk-5Njuvc2o1hTQyugJelOIDbiTBS3NBP5EECMW28bA3dka49o) | IEEE International Conference on Bioinformatics and Biomedicine 2024 | LoRA-based supervised fine-tuning for herbal prescription and dosage prediction. |                      -                      |
+|                              | [TCM-KLLaMA: Intelligent generation model for Traditional Chinese Medicine Prescriptions based on knowledge graph and large language model](https://www.sciencedirect.com/science/article/pii/S0010482525002380?casa_token=vVGZHSc6fEYAAAAA:3lxKHf7PeemSOhLSHLKOHf0VYkCMaw0epAAzh_hGH1D8845hNu3Qs1E1ficZfMHm2EJTTakH3A) |            Computers in Biology and Medicine 2025            | Knowledge graph and synonym matching with LoRA fine-tuning for improved prescription accuracy. |                      -                      |
+|                              |         MCM: Multimodal Chinese Medical Large Model          |                              -                               | Continual pre-training and multimodal fusion for comprehensive TCM Q&A, consultation, and knowledge graph construction. |     https://github.com/JerryMazeyu/MCM      |
+|                              |          TCMLLM: Traditional Chinese Medicine Model          |                              -                               | Large-scale instruction tuning of ChatGLM for auxiliary diagnosis, syndrome differentiation, and prescription generation. |     https://github.com/2020MEAI/TCMLLM      |
+
+**Reference Awesome-repo**
+
+- https://github.com/ITCML/Awesome-Traditional-Chinese-Medicine-Compute
