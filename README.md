@@ -444,8 +444,3 @@ This repository provides a curated collection of research on specialized Large L
 **Reference Awesome-repo**
 
 - https://github.com/ITCML/Awesome-Traditional-Chinese-Medicine-Compute
-
-
-## ⭐Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date)](https://www.star-history.com/#FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&Date)
