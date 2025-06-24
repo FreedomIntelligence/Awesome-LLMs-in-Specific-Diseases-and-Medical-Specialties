@@ -448,10 +448,4 @@ This repository provides a curated collection of research on specialized Large L
 
 ## ⭐Star History
 
-<a href="https://www.star-history.com/#FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date" />
- </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date)](https://www.star-history.com/#FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&Date)
