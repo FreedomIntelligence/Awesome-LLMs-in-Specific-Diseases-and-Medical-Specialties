@@ -447,14 +447,11 @@ This repository provides a curated collection of research on specialized Large L
 
 
 ## ⭐Star History
-<div style="text-align: center; margin: 30px 0;">
 
-<a href="https://star-history.com/#FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);" />
-  </picture>
+<a href="https://www.star-history.com/#FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-LLMs-in-Specific-Diseases-and-Medical-Specialties&type=Date" />
+ </picture>
 </a>
-
-</div>
