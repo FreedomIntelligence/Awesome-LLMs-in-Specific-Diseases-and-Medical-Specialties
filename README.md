@@ -1,4 +1,4 @@
-# Awesome-LLMs-in-Specific-Diseases-and- Medical-Specialties🧑‍⚕️
+# Awesome-LLMs-for-Specific-Diseases-and- Medical-Specialties🧑‍⚕️
 
 This repository provides a curated collection of research on specialized Large Language Models (LLMs) for specific diseases and medical specialties, organized by [ICD-10](https://icd.who.int/browse10/2019/en) chapters.
 
