@@ -4,7 +4,7 @@ This repository provides a curated collection of research on Specialized Medical
 
 ## 📋Table of contents
 
-- [Certain Infectious and Parasitic Diseases](#Certain-Infectious-and-Parasitic-Diseases-(I))
+- [Certain Infectious and Parasitic Diseases (Ⅰ)](#Certain-Infectious-and-Parasitic-Diseases-(I))
   - Specific Diseases: [Tuberculosis](#Tuberculosis), [HIV](#HIV)
 - [Neoplasms (II)](#neoplasms-ii)
   - Medical Specialities: [Oncology](#Oncology), [Cancer](#Cancer), [Breast Medicine](#Breast-Medicine)
@@ -504,5 +504,6 @@ This repository provides a curated collection of research on Specialized Medical
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-Specialized-Medical-LLMs&type=Date" />
  </picture>
 </a>
+
 
 
