@@ -4,7 +4,7 @@ This repository provides a curated collection of research on Specialized Medical
 
 ## 📋Table of contents
 
-- [Certain Infectious and Parasitic Diseases](#Certain Infectious and Parasitic Diseases (I))
+- [Certain Infectious and Parasitic Diseases](#Certain-Infectious-and-Parasitic-Diseases-(I))
   - Specific Diseases: [Tuberculosis](#Tuberculosis), [HIV](#HIV)
 - [Neoplasms (II)](#neoplasms-ii)
   - Medical Specialities: [Oncology](#Oncology), [Cancer](#Cancer), [Breast Medicine](#Breast-Medicine)
@@ -55,7 +55,7 @@ This repository provides a curated collection of research on Specialized Medical
   - Medical Specialities: [Nephrology](#Nephrology)
   - Specific Diseases: [Kidney Transplantation](#Kidney-Transplantation), [Chronic Kidney Disease](#Chronic-Kidney-Disease), [Acute Kidney Injury](#Acute-Kidney-Injury), [Kidney Stone](#Kidney-Stone)
 
-- [Pregnancy, Childbirth and the Puerperium (XV)](#Pregnancy, Childbirth and the Puerperium (XV))
+- [Pregnancy, Childbirth and the Puerperium (XV)](#Pregnancy-Childbirth-and-the-Puerperium-(XV))
   
   - Specific Diseases: [Gestational Diabetes](#Gestational-Diabetes)
   
@@ -87,7 +87,7 @@ This repository provides a curated collection of research on Specialized Medical
 
 ------
 
-## <a name="Certain Infectious and Parasitic Diseases (I)">Certain Infectious and Parasitic Diseases (I)</a>
+## <a name="Certain-Infectious-and-Parasitic-Diseases-(I)">Certain Infectious and Parasitic Diseases (I)</a>
 **Specific Diseases**
 
 |                  Diseases                   |                            Paper                             |       Submitted in       |                         Description                          | Repo/Demo |
@@ -390,7 +390,7 @@ This repository provides a curated collection of research on Specialized Medical
 
 ------
 
-## <a name="Pregnancy, Childbirth and the Puerperium (XV)">Pregnancy, Childbirth and the Puerperium (XV)</a>
+## <a name="Pregnancy-Childbirth-and-the-Puerperium-(XV)">Pregnancy, Childbirth and the Puerperium (XV)</a>
 **Specific Diseases**
 
 |                          Diseases                           |                            Paper                             |  Submitted in   |                         Description                          | Repo/Demo |
@@ -504,4 +504,5 @@ This repository provides a curated collection of research on Specialized Medical
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-Specialized-Medical-LLMs&type=Date" />
  </picture>
 </a>
+
 
