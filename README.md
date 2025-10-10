@@ -79,11 +79,11 @@ This repository provides a curated collection of research on Specialized Medical
 
 - **Annotated human body diagram** illustrating LLMs in 45 specific diseases across 17 organ systems, including female-specific conditions. Organ systems are color-coded; ***disease names*** are in bold italics, followed by the corresponding *model names*.
 
-  ![](readme.assets/llms_in_specific_disease.png)
+  ![](fig/llms_in_specific_disease.png)
 
 - Summary of all specialized medical LLMs for specific diseases and distinct medical specialties collected in this study, categorized by ICD-10 chapter list; disease names and specialty names are highlighted, the corresponding model names are listed.
 
-  ![](readme.assets/table.jpg)
+  ![](fig/table.jpg)
 
 ------
 
@@ -504,3 +504,4 @@ This repository provides a curated collection of research on Specialized Medical
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FreedomIntelligence/Awesome-Specialized-Medical-LLMs&type=Date" />
  </picture>
 </a>
+
